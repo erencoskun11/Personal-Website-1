@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(istockphoto-517188688-612x612.jpg);
+    background-size: cover;
+}
+.box{
+    width: 480px;
+    height: 700px;
+    background-color: #6b6b6b;
+    padding: 4px;
+    text-align: center;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    color: beige;
+    font-family: sans-serif;
+}
+.box img{
+    border-radius: 20%;
+    width: 250px;
+    height: 400px;
+    cursor: pointer;
+    transition: 0.5;
+}
+.box image :hover{
+    transform: scale(0.9);
+}
+
+.box h1{
+    font-size: 40px;
+    letter-spacing: 3px;
+    font-weight: 100;
+}
+.box h5{
+    font-size: 19px;
+    font-weight: 100;
+}
+.box p{
+    font-size: 10;
+    font-weight: 100;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+.box li{
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+}
+.box li a{
+    color:azure;
+    font-size: 60px;
+    transition: all ease-in-out 250ms;
+}
+.box li a :hover{
+    color: b9b9b9;
+}
